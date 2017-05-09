@@ -25,6 +25,21 @@
           <element id="library" level="project" name="Maven: io.netty:netty-resolver:4.1.6.Final" />
           <element id="library" level="project" name="Maven: io.netty:netty-transport:4.1.6.Final" />
           <element id="library" level="project" name="Maven: io.reactivex:rxjava:1.2.1" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-actor_2.11:2.5.1" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-protobuf_2.11:2.5.1" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-remote_2.11:2.5.1" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-stream_2.11:2.5.1" />
+          <element id="library" level="project" name="Maven: com.typesafe:config:1.3.1" />
+          <element id="library" level="project" name="Maven: com.typesafe:ssl-config-core_2.11:0.2.1" />
+          <element id="library" level="project" name="Maven: io.aeron:aeron-client:1.2.5" />
+          <element id="library" level="project" name="Maven: io.aeron:aeron-driver:1.2.5" />
+          <element id="library" level="project" name="Maven: io.netty:netty:3.10.6.Final" />
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: org.agrona:agrona:0.9.5" />
+          <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.0" />
+          <element id="library" level="project" name="Maven: org.scala-lang.modules:scala-java8-compat_2.11:0.7.0" />
+          <element id="library" level="project" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4" />
+          <element id="library" level="project" name="Maven: org.scala-lang:scala-library:2.11.11" />
         </element>
       </element>
     </root>

@@ -19,9 +19,12 @@ public class RedisController {
     private static final String KEY = "mykey";
     private static final long LIMIT = 10000;
     private static final Logger LOGGER = LogManager.getLogger(RedisController.class);
-    private static final JedisPool jPool = new JedisPool(new JedisPoolConfig(), "localhost");
+    //private static final JedisPool jPool = new JedisPool(new JedisPoolConfig(), "localhost");
+    private static final JedisPool jPool = new JedisPool(new JedisPoolConfig(), "yanase-W331AU.local");
 
-    private static final RedisClient client = RedisClient.create("redis://localhost");
+    //private static final RedisClient client = RedisClient.create("redis://localhost");
+    private static final RedisClient client = RedisClient.create("redis://yanase-W331AU.local");
+
     private static final StatefulRedisConnection<String, String> connection = client.connect();
 
     @RequestMapping(value = "/redis/sync")
