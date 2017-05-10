@@ -1,6 +1,7 @@
 package jp.catalyna.actor;
 
 import akka.actor.AbstractActor;
+import com.google.protobuf.Message;
 import jp.catalyna.service.CountingService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -41,6 +42,9 @@ public class CountingActor extends AbstractActor {
   @Override
   public Receive createReceive() {
     return receiveBuilder()
+            .match(Message.class, m -> {
+                LOGGER.info("Received Message: " + m.getClass().getName());
+            })
             .match(Count.class, s -> {
               LOGGER.info("Received Count message");
             })
